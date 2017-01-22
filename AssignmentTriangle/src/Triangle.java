@@ -57,8 +57,8 @@ public class Triangle {
      }else if(x*x+y*y>z*z && z*z+y*y>x*x && x*x+z*z>y*y){       //For a acute-angled triangle, the add value of the square with the any two angles                                                                   
          s = "an acute-angled triangle.";                        // must be larger than the value of the third angle.
      
-     } else {                                                   //For a obtuse-angled triangle, the add value of the square with the any two angles                                                                                      
-         s = "an obtuse-angled triangle.";                       // must be smaller than the value of the third angle. 
+     } else {                                                   //If the triangle is not right-angled or acute-angled, it is a obtuse-angled triangle.                                                                                     
+         s = "an obtuse-angled triangle.";                      
      } 
    } else {
          s = "not a triangle.";
